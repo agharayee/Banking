@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\wepr\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\wepr\\.nuget\\packages"
+    ]
+  }
+}
