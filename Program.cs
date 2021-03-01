@@ -25,9 +25,8 @@ namespace Banking
             var acc = accountNumber;
             System.Console.WriteLine($"Thanks you {firstName} for opening an account with us this is your account number {acc} you have {balance}");
 
-            account.OpenAccount(id,firstName, Address,ContactNumber,convertedBalance);
-            var listCount = account.AccountList.Count;
-            System.Console.WriteLine(listCount);
+            AddAccount addAccount = new AddAccount();
+            addAccount.OpenAccount(id,firstName, Address,ContactNumber,convertedBalance);
         }
     }
 }
