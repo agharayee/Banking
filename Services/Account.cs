@@ -13,7 +13,9 @@ namespace Banking.Services
         public string ContactNumber { get; set; }
         public double Balance { get; set; }
         //public int AccountNumber { get; set; }         
-        public static string AccountNumber;
+        public string AccountNumber;
+
+        public string AtmNumber {get; set;}
    
    }
 
