@@ -94,6 +94,8 @@ namespace Banking.Services
                             var verifyAtmNo = atmGenerator.LuhnAlgorithm(atmchecked);
                             if(luthCheckedAtm == true){
                                 Console.WriteLine($"This is your Atm Number {atmchecked}");
+                                Account acc = new Account();
+                                acc.AtmNumber = atmchecked;
                                 break;
                             } 
                             

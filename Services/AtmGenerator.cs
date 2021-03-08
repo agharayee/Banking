@@ -24,7 +24,7 @@ namespace Banking.Services
         }
 
         public bool checkLuhnsAlgorithm(string atmNumber){
-            
+        
             int sum = 0;
             bool alternate = false;
             for (int i = atmNumber.Length - 1; i >= 0; i--)
